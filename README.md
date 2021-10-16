@@ -1,4 +1,4 @@
-# Quiz_and_Gpa_Management_System/n
+# Quiz_and_Gpa_Management_System
 
 #Group project using java#
 
