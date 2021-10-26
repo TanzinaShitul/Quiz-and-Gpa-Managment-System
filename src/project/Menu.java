@@ -28,7 +28,7 @@ public class Menu implements ActionListener {
         con.add(label);
         label.setBounds(100, 30, 400, 30);
 
-        btn1 = new JButton("MCQ");
+        btn1 = new JButton("Quiz");
         btn2 = new JButton("GPA Calculator");
         btn1.addActionListener(this);
         btn2.addActionListener(this);

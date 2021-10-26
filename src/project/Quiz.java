@@ -29,18 +29,18 @@ public class Quiz extends JFrame implements ActionListener {
         add(b1);
         add(b2);
         set();
-        l.setBounds(30, 40, 450, 20);
-        jb[0].setBounds(50, 80, 100, 20);
-        jb[1].setBounds(50, 110, 100, 20);
-        jb[2].setBounds(50, 140, 100, 20);
-        jb[3].setBounds(50, 170, 100, 20);
+        l.setBounds(30, 40, 850, 20);
+        jb[0].setBounds(50, 80, 300, 20);
+        jb[1].setBounds(50, 110, 300, 20);
+        jb[2].setBounds(50, 140, 300, 20);
+        jb[3].setBounds(50, 170, 300, 20);
         b1.setBounds(100, 240, 100, 30);
         b2.setBounds(270, 240, 100, 30);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
-        setLocation(250, 100);
+        setLocation(350, 150);
         setVisible(true);
-        setSize(600, 350);
+        setSize(1000, 400);
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -56,7 +56,7 @@ public class Quiz extends JFrame implements ActionListener {
         }
         if (e.getActionCommand().equals("Bookmark")) {
             JButton bk = new JButton("Bookmark" + x);
-            bk.setBounds(480, 20 + 30 * x, 100, 30);
+            bk.setBounds(880, 20 + 30 * x, 100, 20);
             add(bk);
             bk.addActionListener(this);
             m[x] = current;
@@ -131,7 +131,7 @@ public class Quiz extends JFrame implements ActionListener {
             l.setText("Que6:What is a method?\n");
             jb[0].setText("(a)A collection of statements grouped together to perform an operation\n");
             jb[1].setText("(b)A value returned from a method using the return statement\n");
-            jb[2].setText("(c)The portion of the program where the variable can be accessed.\n");
+            jb[2].setText("(c)The portion of the program where the variable can be accessed\n");
             jb[3].setText("(d)The combination of the name of a method and the list of its parameters\n");
 
         }
@@ -139,19 +139,19 @@ public class Quiz extends JFrame implements ActionListener {
             l.setText("Que7:What is an object?\n");
             jb[0].setText("(a)Representation of an entity in the real world that can be distinctly identified\n");
             jb[1].setText("(b)A static method can be called without creating an instance of the class\n");
-            jb[2].setText("n(c)Instance variable/instance mthod\n");
-            jb[3].setText("(d)A template, blueprint or contract that defines what an object's data fields and methods will be.\n");
+            jb[2].setText("n(c)Instance variable/instance method\n");
+            jb[3].setText("(d)A template,blueprint or contract that defines what an object's data fields and methods will be\n");
         }
         if (current == 7) {
             l.setText("Que8:What is an array?\n");
             jb[0].setText("(a)Numbers of items ArrayList can store without increasing its size\n");
-            jb[1].setText("(b)Number used as an index to pinpoint a specfic element within an array\n");
+            jb[1].setText("(b)Number used as an index to pinpoint a specific element within an array\n");
             jb[2].setText("(c)Object that can store a group of values, all of the same type\n");
             jb[3].setText("(d)Method of locating a specific item in a larger collection of data\n");
 
         }
         if (current == 8) {
-            l.setText("Que9:You use this statement to throw an exception manually.\n");
+            l.setText("Que9:You use this statement to throw an exception manually?\n");
             jb[0].setText("(a)Throw\n");
             jb[1].setText("(b)call stack\n");
             jb[2].setText("(c)try block\n");
@@ -165,7 +165,7 @@ public class Quiz extends JFrame implements ActionListener {
             jb[3].setText("(d)Generated\n");
         }
         if (current == 10) {
-            l.setText("Que11:Package in Java is a mechanism to encapsulate a ____________.\n");
+            l.setText("Que11:Package in Java is a mechanism to encapsulate a________.\n");
             jb[0].setText("(a)Classes\n");
             jb[1].setText("(b)Sub Packages\n");
             jb[2].setText("(c)Interfaces\n");
@@ -187,14 +187,14 @@ public class Quiz extends JFrame implements ActionListener {
             jb[3].setText("(d)can not say\n");
         }
         if (current == 13) {
-            l.setText("Que14:An _____________ statement can be used to access the classes and interface of a different package from the current package.\n");
+            l.setText("Que14:An _____statement can be used to access the classes and interface of a different package?\n");
             jb[0].setText("(a)instanceOf\n");
             jb[1].setText("(b)import\n");
             jb[2].setText("(c)extends\n");
             jb[3].setText("(d)implement\n");
         }
         if (current == 14) {
-            l.setText("Que15: Java Source Code is compiled into ?\n");
+            l.setText("Que15:Java Source Code is compiled into ?\n");
             jb[0].setText("(a)Obj\n");
             jb[1].setText("(b)Source Code\n");
             jb[2].setText("(c)Bytecode\n");
@@ -240,10 +240,10 @@ public class Quiz extends JFrame implements ActionListener {
             jb[0].setText("(a)characters\n");
             jb[1].setText("(b)boolean\n");
             jb[2].setText("n(c)numeric\n");
-            jb[3].setText("(d)both numeric and characters.\n");
+            jb[3].setText("(d)both numeric and characters\n");
         }
         if (current == 21) {
-            l.setText("Que22:Modulus operator, % , can be applied to which of these\n");
+            l.setText("Que22:Modulus operator, % , can be applied to which of these?\n");
             jb[0].setText("(a)both integers and floating - numbers \n");
             jb[1].setText("(b)integers\n");
             jb[2].setText("(c)floating point numbers\n");
@@ -251,14 +251,14 @@ public class Quiz extends JFrame implements ActionListener {
         }
 
         if (current == 22) {
-            l.setText("Que23: Package in java is a mechanism to encapsulate a ..................\n");
+            l.setText("Que23:Package in java is a mechanism to encapsulate a_____.");
             jb[0].setText("(a)classes \n");
             jb[1].setText("(b)sub packages \n");
             jb[2].setText("(c)all of the above\n");
             jb[3].setText("(d)interfaces\n");
         }
         if (current == 23) {
-            l.setText("Que24:Single line comment starts with ........... in java?\n");
+            l.setText("Que24:Single line comment starts with_____in java?");
             jb[0].setText("(a)/*\n");
             jb[1].setText("(b)//\n");
             jb[2].setText("(c)/\n");
@@ -266,7 +266,7 @@ public class Quiz extends JFrame implements ActionListener {
         }
 
         if (current == 24) {
-            l.setText("Que25: How to run java program in command prompt?\n");
+            l.setText("Que25:How to run java program in command prompt?");
             jb[0].setText("(a)javac filename.java\n");
             jb[1].setText("(b)java filename.java\n");
             jb[2].setText("(c)javac filename\n");
@@ -274,67 +274,67 @@ public class Quiz extends JFrame implements ActionListener {
         }
 
         if (current == 25) {
-            l.setText("Que26: What is the Time Zone of Bangladesh?");
-            jb[0].setText("UTC + 5\\n ");
-            jb[1].setText("UTC + 6\\n ");
-            jb[2].setText("UTC + 4\\n");
-            jb[3].setText("none of all\\n");
+            l.setText("Que26:What is the Time Zone of Bangladesh?");
+            jb[0].setText("UTC + 5\n ");
+            jb[1].setText("UTC + 6\n ");
+            jb[2].setText("UTC + 4\n");
+            jb[3].setText("none of all\n");
         }
         if (current == 26) {
-            l.setText("Que27: How many kilometeres of costline does Bangladesh have?");
-            jb[0].setText("1,682 km\\n");
-            jb[1].setText("257 km\\n");
-            jb[2].setText("2,798 km\\");
-            jb[3].setText("580 km\\n");
+            l.setText("Que27:How many kilometres of cost line does Bangladesh have?");
+            jb[0].setText("1,682 km\n");
+            jb[1].setText("257 km\n");
+            jb[2].setText("2,798 km\n");
+            jb[3].setText("580 km\n");
         }
         if (current == 27) {
             l.setText("Que28: What are the some natural Hazards in Bangladesh?");
-            jb[0].setText("Droughts, Cyclones , and Earthquake\\n");
-            jb[1].setText("Cyclones , Earthquakes, and Severe flooding\\n");
-            jb[2].setText("Droughts, Cyclones , and Severe Flooding\\n");
-            jb[3].setText("Droughts, Earthquakes, and Landslides\\n");
+            jb[0].setText("Droughts, Cyclones , and Earthquake\n");
+            jb[1].setText("Cyclones , Earthquakes, and Severe flooding\n");
+            jb[2].setText("Droughts, Cyclones , and Severe Flooding\n");
+            jb[3].setText("Droughts, Earthquakes, and Landslides\n");
         }
         if (current == 28) {
-            l.setText("Que29: In Mid-July, What would the weather most likely be in Bangladesh");
-            jb[0].setText("Snow , Frost , Ice\\n ");
-            jb[1].setText("Humid , Warm , Rainy\\n");
-            jb[2].setText("Hot & Dry\\n");
-            jb[3].setText(" Mild\\n");
+            l.setText("Que29: In Mid-July, What would the weather most likely be in Bangladesh?");
+            jb[0].setText("Snow , Frost , Ice\n ");
+            jb[1].setText("Humid , Warm , Rainy\n");
+            jb[2].setText("Hot & Dry\n");
+            jb[3].setText(" Mild\n");
         }
         if (current == 29) {
-            l.setText("Que30:How many chapters does the glorius Quran contain? ");
-            jb[0].setText("100\\n");
-            jb[1].setText("125\\n");
-            jb[2].setText("114\\n");
-            jb[3].setText("90\\n");
+            l.setText("Que30:How many chapters does the glorious Quran contain? ");
+            jb[0].setText("100\n");
+            jb[1].setText("125\n");
+            jb[2].setText("114\n");
+            jb[3].setText("90\n");
         }
         if (current == 30) {
             l.setText("Que31:What was Bangladesh formally known as?");
-            jb[0].setText("East Pakistan\\n");
-            jb[1].setText(" East India\\n");
-            jb[2].setText("Wast Bangla\\n");
-            jb[3].setText("Wast Pakistan\\n");
+            jb[0].setText("East Pakistan\n");
+            jb[1].setText(" East India\n");
+            jb[2].setText("Wast Bangla\n");
+            jb[3].setText("Wast Pakistan\n");
         }
         if (current == 31) {
-            l.setText("Que32:\"What kind of climate does Bangladesh have?  ");
-            jb[0].setText("Temperate\\n");
-            jb[1].setText("Tropical\\n");
-            jb[2].setText("Arid\\n");
-            jb[3].setText(" Sub-Arctic\\n");
+            l.setText("Que32:What kind of climate does Bangladesh have?  ");
+            jb[0].setText("Temperate\n");
+            jb[1].setText("Tropical\n");
+            jb[2].setText("Arid\n");
+            jb[3].setText(" Sub-Arctic\n");
         }
         if (current == 32) {
             l.setText("Que33:What are the current Environmental issues in Bangladesh?");
-            jb[0].setText("Water Pollution & Shortages\\n");
-            jb[1].setText("Erosion & Deforestation\\n");
-            jb[2].setText(" Severe Overpopulation\\n");
-            jb[3].setText("All of Above\\n");
+            jb[0].setText("Water Pollution & Shortages\n");
+            jb[1].setText("Erosion & Deforestation\n");
+            jb[2].setText(" Severe Overpopulation\n");
+            jb[3].setText("All of Above\n");
         }
         if (current == 33) {
-            l.setText("Que34: When was the first Bangladeshi Taka printed?");
-            jb[0].setText("4 March, 1972\\n");
-            jb[1].setText("4 June, 1972\\n");
-            jb[2].setText("4 April, 1972\\n");
-            jb[3].setText("4, December, 1972\\n");
+            l.setText("Que34:When was the first Bangladeshi Taka printed?");
+            jb[0].setText("4 March, 1972\n");
+            jb[1].setText("4 June, 1972\n");
+            jb[2].setText("4 April, 1972\n");
+            jb[3].setText("4, December, 1972\n");
         }
         if (current == 34) {
             l.setText("Que35:A Storm named ‘Eta’ has recently caused massive landslides in which country?");
@@ -358,14 +358,14 @@ public class Quiz extends JFrame implements ActionListener {
             jb[3].setText("Canada");
         }
         if (current == 37) {
-            l.setText("Que38:hich country has introduced a Veto Power on any agreements entered with foreign countries?");
+            l.setText("Que38:Which country has introduced a Veto Power on any agreements entered with foreign countries?");
             jb[0].setText("Pakistan");
             jb[1].setText("Afghanistan");
             jb[2].setText("Japan");
             jb[3].setText("Australia");
         }
         if (current == 38) {
-            l.setText("Que39:Which country under its ‘Data Sonification’ program, extracted the sound of important phenomena of the universe?");
+            l.setText("Que39:Which country under its ‘Data Sonification’ program,extracted the sound of important phenomena of the universe?");
             jb[0].setText("India");
             jb[1].setText("China");
             jb[2].setText("United States");
@@ -452,9 +452,9 @@ public class Quiz extends JFrame implements ActionListener {
             jb[3].setText("Craig Crowley");
         }
 
-        l.setBounds(30, 40, 450, 20);
+        l.setBounds(30, 40, 850, 20);
         for (int i = 0, j = 0; i <= 90; i += 30, j++)
-            jb[j].setBounds(50, 80 + i, 200, 20);
+            jb[j].setBounds(50, 80 + i, 600, 20);
     }
 
 
