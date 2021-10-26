@@ -101,7 +101,7 @@ public class Quiz extends JFrame implements ActionListener {
         }
         if (current == 1) {
             l.setText("Que2:What does counter++; do?\n");
-            jb[0].setText("(b)Adds 1 to counter\n");
+            jb[0].setText("(a)Adds 1 to counter\n");
             jb[1].setText("(b)Adds 2 to counter\n");
             jb[2].setText("(c)Gets the sum\n");
             jb[3].setText("(d)Multiplies the numbers\n");
@@ -139,7 +139,7 @@ public class Quiz extends JFrame implements ActionListener {
             l.setText("Que7:What is an object?\n");
             jb[0].setText("(a)Representation of an entity in the real world that can be distinctly identified\n");
             jb[1].setText("(b)A static method can be called without creating an instance of the class\n");
-            jb[2].setText("n(c)Instance variable/instance method\n");
+            jb[2].setText("(c)Instance variable/instance method\n");
             jb[3].setText("(d)A template,blueprint or contract that defines what an object's data fields and methods will be\n");
         }
         if (current == 7) {
@@ -239,7 +239,7 @@ public class Quiz extends JFrame implements ActionListener {
             l.setText("Que21:Which of the following can be operands of arithmetic operators?\n");
             jb[0].setText("(a)characters\n");
             jb[1].setText("(b)boolean\n");
-            jb[2].setText("n(c)numeric\n");
+            jb[2].setText("(c)numeric\n");
             jb[3].setText("(d)both numeric and characters\n");
         }
         if (current == 21) {
@@ -275,181 +275,181 @@ public class Quiz extends JFrame implements ActionListener {
 
         if (current == 25) {
             l.setText("Que26:What is the Time Zone of Bangladesh?");
-            jb[0].setText("UTC + 5\n ");
-            jb[1].setText("UTC + 6\n ");
-            jb[2].setText("UTC + 4\n");
-            jb[3].setText("none of all\n");
+            jb[0].setText("(a)UTC + 5\n ");
+            jb[1].setText("(b)UTC + 6\n ");
+            jb[2].setText("(c)UTC + 4\n");
+            jb[3].setText("(d)none of all\n");
         }
         if (current == 26) {
             l.setText("Que27:How many kilometres of cost line does Bangladesh have?");
-            jb[0].setText("1,682 km\n");
-            jb[1].setText("257 km\n");
-            jb[2].setText("2,798 km\n");
-            jb[3].setText("580 km\n");
+            jb[0].setText("(a)1,682 km\n");
+            jb[1].setText("(b)257 km\n");
+            jb[2].setText("(c)2,798 km\n");
+            jb[3].setText("(d)580 km\n");
         }
         if (current == 27) {
             l.setText("Que28: What are the some natural Hazards in Bangladesh?");
-            jb[0].setText("Droughts, Cyclones , and Earthquake\n");
-            jb[1].setText("Cyclones , Earthquakes, and Severe flooding\n");
-            jb[2].setText("Droughts, Cyclones , and Severe Flooding\n");
-            jb[3].setText("Droughts, Earthquakes, and Landslides\n");
+            jb[0].setText("(a)Droughts, Cyclones , and Earthquake\n");
+            jb[1].setText("(b)Cyclones , Earthquakes, and Severe flooding\n");
+            jb[2].setText("(c)Droughts, Cyclones , and Severe Flooding\n");
+            jb[3].setText("(d)Droughts, Earthquakes, and Landslides\n");
         }
         if (current == 28) {
             l.setText("Que29: In Mid-July, What would the weather most likely be in Bangladesh?");
-            jb[0].setText("Snow , Frost , Ice\n ");
-            jb[1].setText("Humid , Warm , Rainy\n");
-            jb[2].setText("Hot & Dry\n");
-            jb[3].setText(" Mild\n");
+            jb[0].setText("(a)Snow , Frost , Ice\n ");
+            jb[1].setText("(b)Humid , Warm , Rainy\n");
+            jb[2].setText("(c)Hot & Dry\n");
+            jb[3].setText("(d)Mild\n");
         }
         if (current == 29) {
             l.setText("Que30:How many chapters does the glorious Quran contain? ");
-            jb[0].setText("100\n");
-            jb[1].setText("125\n");
-            jb[2].setText("114\n");
-            jb[3].setText("90\n");
+            jb[0].setText("(a)100\n");
+            jb[1].setText("(b)125\n");
+            jb[2].setText("(c)114\n");
+            jb[3].setText("(d)90\n");
         }
         if (current == 30) {
             l.setText("Que31:What was Bangladesh formally known as?");
-            jb[0].setText("East Pakistan\n");
-            jb[1].setText(" East India\n");
-            jb[2].setText("Wast Bangla\n");
-            jb[3].setText("Wast Pakistan\n");
+            jb[0].setText("(a)East Pakistan\n");
+            jb[1].setText("(b)East India\n");
+            jb[2].setText("(c)Wast Bangla\n");
+            jb[3].setText("(d)Wast Pakistan\n");
         }
         if (current == 31) {
             l.setText("Que32:What kind of climate does Bangladesh have?  ");
-            jb[0].setText("Temperate\n");
-            jb[1].setText("Tropical\n");
-            jb[2].setText("Arid\n");
-            jb[3].setText(" Sub-Arctic\n");
+            jb[0].setText("(a)Temperate\n");
+            jb[1].setText("(b)Tropical\n");
+            jb[2].setText("(c)Arid\n");
+            jb[3].setText("(c)Sub-Arctic\n");
         }
         if (current == 32) {
             l.setText("Que33:What are the current Environmental issues in Bangladesh?");
-            jb[0].setText("Water Pollution & Shortages\n");
-            jb[1].setText("Erosion & Deforestation\n");
-            jb[2].setText(" Severe Overpopulation\n");
-            jb[3].setText("All of Above\n");
+            jb[0].setText("(a)Water Pollution & Shortages\n");
+            jb[1].setText("(b)Erosion & Deforestation\n");
+            jb[2].setText("(c)Severe Overpopulation\n");
+            jb[3].setText("(d)All of Above\n");
         }
         if (current == 33) {
             l.setText("Que34:When was the first Bangladeshi Taka printed?");
-            jb[0].setText("4 March, 1972\n");
-            jb[1].setText("4 June, 1972\n");
-            jb[2].setText("4 April, 1972\n");
-            jb[3].setText("4, December, 1972\n");
+            jb[0].setText("(a)4 March, 1972\n");
+            jb[1].setText("(b)4 June, 1972\n");
+            jb[2].setText("(c)4 April, 1972\n");
+            jb[3].setText("(d)4, December, 1972\n");
         }
         if (current == 34) {
             l.setText("Que35:A Storm named ‘Eta’ has recently caused massive landslides in which country?");
-            jb[0].setText("Guatemala");
-            jb[1].setText("Brazil");
-            jb[2].setText("New Zealand");
-            jb[3].setText(" Philippines");
+            jb[0].setText("(a)Guatemala");
+            jb[1].setText("(b)Brazil");
+            jb[2].setText("(c)New Zealand");
+            jb[3].setText("(d)Philippines");
         }
         if (current == 35) {
             l.setText("Que36:Which country has announced a contribution of USD 1 million to the COVID-19 ASEAN Response Fund?");
-            jb[0].setText("United States");
-            jb[1].setText("India");
-            jb[2].setText("Singapore");
-            jb[3].setText("China");
+            jb[0].setText("(a)United States");
+            jb[1].setText("(b)India");
+            jb[2].setText("(c)Singapore");
+            jb[3].setText("(d)China");
         }
         if (current == 36) {
             l.setText("Que37:Which country has test fired ‘Tsirkon’ hypersonic cruise missile?");
-            jb[0].setText("China");
-            jb[1].setText("Japan");
-            jb[2].setText("Russia");
-            jb[3].setText("Canada");
+            jb[0].setText("(a)China");
+            jb[1].setText("(b)Japan");
+            jb[2].setText("(c)Russia");
+            jb[3].setText("(d)Canada");
         }
         if (current == 37) {
             l.setText("Que38:Which country has introduced a Veto Power on any agreements entered with foreign countries?");
-            jb[0].setText("Pakistan");
-            jb[1].setText("Afghanistan");
-            jb[2].setText("Japan");
-            jb[3].setText("Australia");
+            jb[0].setText("(a)Pakistan");
+            jb[1].setText("(b)Afghanistan");
+            jb[2].setText("(c)Japan");
+            jb[3].setText("(d)Australia");
         }
         if (current == 38) {
             l.setText("Que39:Which country under its ‘Data Sonification’ program,extracted the sound of important phenomena of the universe?");
-            jb[0].setText("India");
-            jb[1].setText("China");
-            jb[2].setText("United States");
-            jb[3].setText("Germany");
+            jb[0].setText("(a)India");
+            jb[1].setText("(b)China");
+            jb[2].setText("(c)United States");
+            jb[3].setText("(d)Germany");
         }
         if (current == 39) {
             l.setText("Que40:Which country announced to restrict promotion of unhealthy food from April 2022?");
-            jb[0].setText("France");
-            jb[1].setText("UK");
-            jb[2].setText("China");
-            jb[3].setText("South Korea");
+            jb[0].setText("(a)France");
+            jb[1].setText("(b)UK");
+            jb[2].setText("(c)China");
+            jb[3].setText("(d)South Korea");
         }
         if (current == 40) {
             l.setText("Que41:Which country released a bill that would increase monitoring of civil society groups?");
-            jb[0].setText("Turkey");
-            jb[1].setText("United States");
-            jb[2].setText("Germany");
-            jb[3].setText("North Korea");
+            jb[0].setText("(a)Turkey");
+            jb[1].setText("(b)United States");
+            jb[2].setText("(c)Germany");
+            jb[3].setText("(d)North Korea");
         }
         if (current == 41) {
             l.setText("Que42:Which country test-fired a nuclear-capable surface-to-surface ballistic missile named ‘Shaheen-III’?");
-            jb[0].setText("Iran");
-            jb[1].setText("Pakistan");
-            jb[2].setText("UAE");
-            jb[3].setText("Afganistan");
+            jb[0].setText("(a)Iran");
+            jb[1].setText("(b)Pakistan");
+            jb[2].setText("(c)UAE");
+            jb[3].setText("(d)Afghanistan");
         }
         if (current == 42) {
             l.setText("Que43:Which county has rejoined the “Paris climate agreement” recently?");
-            jb[0].setText("USA");
-            jb[1].setText("Japan");
-            jb[2].setText("China");
-            jb[3].setText("Russia");
+            jb[0].setText("(a)USA");
+            jb[1].setText("(b)Japan");
+            jb[2].setText("(c)China");
+            jb[3].setText("(d)Russia");
         }
         if (current == 43) {
             l.setText("Que44:Which country recently reported its first known human death of the rare ‘Monkey B virus’?");
-            jb[0].setText("USA");
-            jb[1].setText("China");
-            jb[2].setText("South Korea");
-            jb[3].setText("Singapore");
+            jb[0].setText("(a)USA");
+            jb[1].setText("(b)China");
+            jb[2].setText("(c)South Korea");
+            jb[3].setText("(d)Singapore");
         }
         if (current == 44) {
             l.setText("Que45:Which country has become the first country in the world to manufacture fossil-free steel?");
-            jb[0].setText("Germany");
-            jb[1].setText("India");
-            jb[2].setText("japan");
-            jb[3].setText("Sweden");
+            jb[0].setText("(a)Germany");
+            jb[1].setText("(b)India");
+            jb[2].setText("(c)japan");
+            jb[3].setText("(d)Sweden");
         }
         if (current == 45) {
             l.setText("Que46:Who had established the World Series Cricket in 1970s?");
-            jb[0].setText(" Kerry Packer");
-            jb[1].setText("David Johnson");
-            jb[2].setText("Allen Hill");
-            jb[3].setText("Alfred Shaw");
+            jb[0].setText("(a)Kerry Packer");
+            jb[1].setText("(b)David Johnson");
+            jb[2].setText("(c)Allen Hill");
+            jb[3].setText("(d)Alfred Shaw");
         }
         if (current == 46) {
             l.setText("Que47:Which nation won the maximum number of medals in the 2018 ISSF World Shooting Championships?");
-            jb[0].setText("Sweden");
-            jb[1].setText(" Finland");
-            jb[2].setText("United States");
-            jb[3].setText(" China");
+            jb[0].setText("(a)Sweden");
+            jb[1].setText("(b)Finland");
+            jb[2].setText("(c)United States");
+            jb[3].setText("(d)China");
         }
 
         if (current == 47) {
             l.setText("Que48:Who has won the 2018 UCI Cyclo-cross World Cup championship for women?");
-            jb[0].setText("Sanne Cant");
-            jb[1].setText("Sophie de Boer");
-            jb[2].setText("Katie Compton");
-            jb[3].setText("Hanka Kupfernagel");
+            jb[0].setText("(a)Sanne Cant");
+            jb[1].setText("(b)Sophie de Boer");
+            jb[2].setText("(c)Katie Compton");
+            jb[3].setText("(d)Hanka Kupfernagel");
         }
 
         if (current == 48) {
             l.setText("Que49:What is the length of the cricket pitch?");
-            jb[0].setText("20.12m");
-            jb[1].setText("23.12m");
-            jb[2].setText("22.12m");
-            jb[3].setText("19.12m");
+            jb[0].setText("(a)20.12m");
+            jb[1].setText("(b)23.12m");
+            jb[2].setText("(c)22.12m");
+            jb[3].setText("(d)19.12m");
         }
 
         if (current == 49) {
             l.setText("Que50:Who had designed the Olympic symbol of five rings?");
-            jb[0].setText("Baron Coubertin");
-            jb[1].setText("Henri Didon");
-            jb[2].setText("Carl Jung");
-            jb[3].setText("Craig Crowley");
+            jb[0].setText("(a)Baron Coubertin");
+            jb[1].setText("(b)Henri Didon");
+            jb[2].setText("(c)Carl Jung");
+            jb[3].setText("(d)Craig Crowley");
         }
 
         l.setBounds(30, 40, 850, 20);
