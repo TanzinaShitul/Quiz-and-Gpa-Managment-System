@@ -4,7 +4,7 @@
 
 Project IDEA:
 
-The Quiz and Gpa Management System Project in Java has been developed in JAVA Programming using IntelliJ IDEA. This project is only limited to the simple GUI based Quiz System and Gpa calculator. A Quiz Management System in Java is to perform the examination for the student where an teacher can add any category  questions,add a calculator feature where all user can calculated their Grade Points Average (GPA). As a user student can attend those exams. The user can submit the test after finish the exam and there will immediately show his mark.
+The Quiz and Gpa Management System Project in Java has been developed in JAVA Programming using IntelliJ IDEA. This project is only limited to the simple GUI based Quiz System and Gpa calculator. A Quiz Management System in Java is to perform the examination for the student where a teacher can add any category  questions,add a calculator feature where all user can calculated their Grade Points Average (GPA). As a user student can attend those exams. The user can submit the test after finish the exam and there will immediately show his mark.
 
 Why do we use it?
 
