@@ -29,18 +29,18 @@ public class Quiz extends JFrame implements ActionListener {
         add(b1);
         add(b2);
         set();
-        l.setBounds(30, 40, 450, 20);
-        jb[0].setBounds(50, 80, 100, 20);
-        jb[1].setBounds(50, 110, 100, 20);
-        jb[2].setBounds(50, 140, 100, 20);
-        jb[3].setBounds(50, 170, 100, 20);
+        l.setBounds(30, 40, 850, 20);
+        jb[0].setBounds(50, 80, 300, 20);
+        jb[1].setBounds(50, 110, 300, 20);
+        jb[2].setBounds(50, 140, 300, 20);
+        jb[3].setBounds(50, 170, 300, 20);
         b1.setBounds(100, 240, 100, 30);
         b2.setBounds(270, 240, 100, 30);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
-        setLocation(250, 100);
+        setLocation(350, 150);
         setVisible(true);
-        setSize(600, 350);
+        setSize(1000, 400);
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -56,7 +56,7 @@ public class Quiz extends JFrame implements ActionListener {
         }
         if (e.getActionCommand().equals("Bookmark")) {
             JButton bk = new JButton("Bookmark" + x);
-            bk.setBounds(480, 20 + 30 * x, 100, 30);
+            bk.setBounds(880, 20 + 30 * x, 100, 30);
             add(bk);
             bk.addActionListener(this);
             m[x] = current;
@@ -453,9 +453,9 @@ public class Quiz extends JFrame implements ActionListener {
         }
 
 
-        l.setBounds(30, 40, 450, 20);
+        l.setBounds(30, 40, 850, 20);
         for (int i = 0, j = 0; i <= 90; i += 30, j++)
-            jb[j].setBounds(50, 80 + i, 200, 20);
+            jb[j].setBounds(50, 80 + i, 600, 20);
     }
 
 
